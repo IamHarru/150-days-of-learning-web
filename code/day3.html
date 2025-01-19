@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form-for-apllying-for-parttime-jobs</title>
+</head>
+
+<body>
+    <h1>Apply here:-</h1>
+
+    <form action="post">
+        <ol>
+            <li>
+
+                <lable for="first">Enter your Name 
+                </lable>
+                <input type="text" name="username" id="first" placeholder="First Name">
+                <input type="text" name="username" id="middle" placeholder="middle Name">
+                <input type="text" name="username" id="last" placeholder="last Name">
+            </li>
+            <li>
+                <p>select your gender</p>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="other" value="other">
+                <label for="other">Other</label>
+            </li>
+            <li> <label for="mobileno">Enter your mobile no</label>
+                <input type="tel" name="mobile-no" id="mobileno" placeholder="Mobile-no">
+            </li>
+            <li><label for="Address">Enter your Address</label>
+                <input type="text" name="Address" id="address" placeholder="Area">
+                <input type="text" name="Address" id="city" placeholder="city & state">
+                <input type="number" name="Address" id="pincode" placeholder="pincode">
+            </li>
+            <li>
+                <label for="Email">Enter your email address</label>
+                <input type="email" name="email" id="Email" placeholder="Email">
+            </li>
+            <li>
+            <p>select your job type</p>
+            <select name="jobs" id="job">
+                <option value="Job's">Job's</option>
+                <option value="parttime">Part-Time</option>
+                <option value="fulltime">Full-Time</option>
+                <option value="weekend">Week-End</option>
+                <option value="hour's">Hours</option>
+            </select>
+            </li>
+        </ol>
+        <input type="submit" name="submit" id="sub">
+    </form>
+
+</body>
+
+</html>
