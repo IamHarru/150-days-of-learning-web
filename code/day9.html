@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>list-style,Overflow
+    </title>
+    <style>
+        nav ul{
+            display: flex;
+            
+        }
+        nav ul li{
+            background-color: gray;
+            padding: 30px;
+            list-style: none; 
+            /* list-style: devanagari; */
+            /* list-style-type:"Emoji"; */
+            /* list-style-position: inside; we write this for add bullet's inside the border  */
+
+            
+        }
+        div{
+                border: 2px solid black;
+                height: 6vh;
+                width: 50vw;
+                /* overflow: auto; we used this if our tex owerflow then used scroll*/
+                /* overflow: scroll; we used this for both side horizontal or vertical scroll bar */
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                overflow: auto;
+            }
+    </style>
+
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>Home</li>
+
+            <li>Contact</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div>hy i like Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias voluptates voluptatum labore nihil alias quo blanditiis consequuntur sunt cupiditate, dolor exercitationem fugit voluptate totam aut dolorum minus modi nostrum quis autem dignissimos doloribus. Nulla officiis aspernatur error fugit. Quis nulla eum, delectus deserunt ex non.</div>
+
+
+</body>
+
+</html>

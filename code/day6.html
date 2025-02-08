@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first web using css</title>
+</head>
+<style>
+    h1:hover{background-color: black; color: white;}
+    h1{
+        color: black;
+    }
+    /* element selector */
+    div{
+        color: red
+    }
+    /* id & class selector */
+   
+    #tixy{color: green;}
+    .mixy{
+        color: aqua;
+    }
+    /* pseudo selectors */
+    #green:visited{color: black;}
+    #red:link{color:yellowgreen;}
+    a:active{color: blue;}
+    p:first-child{
+        color: rgb(25, 136, 226);
+    }
+    /* desendent selectors */
+    div p {
+        color: brown;
+    }
+    /* child selector */
+    div > p {color: red;}
+    /* --------------------------------- */
+    #note{border: 2px solid black;color: red;}
+    
+</style>
+
+<body><p id="note">note:----if selector are not worked no worry it only write for giving information</p>
+    <h1>Life is unfare</h1>
+    <p>hy every one today iam going to tell you about life and how it's unfare with us</p>
+    <div class="mixy"><img  src="Untitled.png" alt="code with harry" width="300" height="300">
+        <p>information about playlist </p>
+    </div>
+    <div id="tixy"><img src="Untitled.png" alt="code with harry" width="300" height="300">
+        <p>information about harry</p>
+    </div>
+    <div><a id="green" href="https://www.google.com">open Google</a>
+        <a id="red" href="https://www.youtube.com">open youtube</a>
+        <a href="https://www.facebook.com">open facebook</a>
+    </div>
+    <div><p>mayank is so handsome</p>
+    <p>mayank is so smart</p></div>
+    <span><p>mayank is so smart</p></span>
+
+</body>
+
+</html>

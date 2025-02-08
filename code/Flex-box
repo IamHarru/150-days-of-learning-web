@@ -1,0 +1,26 @@
+there are lots of properties of display-flex some of them are gien below.
+1.Container,2.items
+there are diffrent-diffrent properties which used in only container or with items.
+
+
+1.Container-first we are going to see properties which used inside the containner
+
+*display-flex:flex,flex-end,flex-start, etc;
+*flex-flow:direction wrap etc;
+*flex-direction: row, coloum,start, end,etc;
+*flex-wrap:wrap,wrap reverse,etc;
+*height,*width,margin & padding
+*justify-content:center,end,start,etc;
+*align-content,align-items:;
+
+note:-we dont use justify-item in flex 
+
+2.items:-
+
+*align-self{we use this properti for aign indivdul items}
+*height,*width,*magin,*padding
+*order-
+if order is greater then item move to last position
+if order is less then item move to first position 
+*flex-grow
+*flex-shrink
